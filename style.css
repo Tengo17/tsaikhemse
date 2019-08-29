@@ -47,8 +47,8 @@ align-items: center;
 justify-content: center; 
 
 
+}
 
-} 
 
 .hero-content::before{
 content: 'rame';
@@ -130,15 +130,6 @@ top: 20px;
 }
 
 
-
-.hero-menu {
-	display: flex;
-	flex-wrap:  wrap ;
-	justify-content: center;
-	justify-content: space-around;	
-
-}
-
 .hero-menu h2 {
 	font-size: 30px;
 	font-weight: normal;
@@ -213,7 +204,6 @@ top: 20px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-bord
 		
 }
 .hero-menu li:hover {
@@ -233,15 +223,25 @@ bord
 .hero-menu {
 	border: 1px solid #707070;
 	width: 100%;
+	position: absolute;
 	box-shadow: 0px 3px 6px 0px #707070;
 	display: flex;
 	background-color: #ffffff;
 	flex-wrap:  wrap;
 	justify-content: center;
 	justify-content: space-around;
-
-
+	position: relative;
 }
+footer::before{
+    content: url('../images/basil2.png');
+    position: absolute;
+    left: -800px;
+    top: -389px;
+    z-index: -1;
+    width: 322px;
+    height: 222px;
+}
+
 .hero-menu::before {
 	content: '';
 	display: block;
@@ -266,14 +266,19 @@ bord
 	border-bottom-left-radius: 20px;
 }
 footer {
-	background-color: #292C2F;
-	position: absolute;
-	width: 100%;
-	height: 557px;
-	left: 0;
-	justify-content: center;
-	align-items: center;
+    background-color: #292C2F;
+    position: absolute;
+    width: 100%;
+    height: 557px;
+    left: 0;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
+
 footer p {
 	color:#F59A63; 
 	border-radius: 15px;
@@ -286,6 +291,7 @@ footer p {
 	justify-content: center;
 	margin: 0 auto;
 	margin-top: 90px;
+
 
 }
 iframe {
@@ -328,4 +334,40 @@ bottom: 39px;
 
 
 
+@media only screen and (max-width: 600px) {
+.list {
+	display: none;
+}
 
+}
+
+
+@media only screen and (min-width: 600px) {
+	.burger {
+		display: none;
+	}
+}
+.burger {
+    width: 25px;
+    height: 25px;
+    background-color: #181818;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 75px;
+    cursor: pointer;
+}
+.burger-line {
+    display: block;
+    width: 15px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    margin:  2px;
+    border-top: 2px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
