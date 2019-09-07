@@ -445,7 +445,7 @@ path {
 		font-size: 10px;
 	}
 	.burger {
-		display: none;
+		display: block;
 	}
 
 
