@@ -229,7 +229,6 @@ top: 20px;
 	border: 1px solid #707070;
 	width: 100%;
 	height: calc(100% - 100px);
-	position: absolute;
 	box-shadow: 0px 3px 6px 0px #707070;
 	display: flex;
 	background-color: #ffffff;
@@ -326,6 +325,7 @@ iframe {
 	position: relative;
 	bottom: 15px;
 
+
 }
 .logos {
 	display: flex;
@@ -347,6 +347,7 @@ path {
 #Facebook:hover path {
 	fill:  #BADC58;
 	transition: 300ms color ease;
+
 }
 
 #Instagram:hover path {
@@ -443,37 +444,19 @@ path {
 	footer address {
 		font-size: 10px;
 	}
-
-
-
-}
-@media (min-width: 720px) and (max-width: 980px) {
-
-
-	.hero-content:after {
-
-		display: none;
-	}
-	footer:before {
-		display: none;
-	}
 	.burger {
 		display: none;
 	}
-	.hero-text h1 {
-		padding-bottom: 50px;
+
+
+
 }
- 	.hero-text p {
- 		padding-bottom: 50px;
- 	}
- 	#btn {
- 		margin-top: 50px;
+@media (min-width: 720px) and (max-width: 1024px) {
 
+	.burger {
+		display: none;
+	}
 
- 	}
- 	.scroll {
- 		margin-top: 100px;
- 	}
 
 }
 
@@ -483,3 +466,24 @@ path {
 		display: none;
 	}
 }
+@media (min-width: 480px) and (max-width: 720px){
+
+.hero-content:after {
+
+		display: none;
+	}
+	footer:before {
+		display: none;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	.burger {
+		display: block;
+	}
+	.list {
+		display: none;
+	}
+
+}
+
