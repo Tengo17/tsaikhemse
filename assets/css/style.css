@@ -1,0 +1,485 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "lato", sans-serif;
+}
+
+body{
+	max-width: 1084px;
+	margin: 0 auto;
+	overflow-x: hidden;
+
+
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	
+}
+
+
+ul	{
+	width: 214px;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	transition: 300ms color ease;
+	color: #181818;
+
+}
+
+
+a:hover {
+	color: #BADC58;
+	transition: 300ms color ease;
+}
+
+.hero-content {
+height: calc(100vh - 60px);
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+
+
+}
+.hero-content::after{
+    content: url(../images/basil1.png);
+    position: absolute;
+    z-index: 1;
+    right: -820px;
+    bottom: -350px;
+}
+
+.hero-content::before{
+content: '';
+display: block;
+position: absolute;
+top: 60px;
+bottom: 0px;
+left: 0;
+right: 0;
+background-color: #181818;
+opacity: .6;
+z-index: -1;
+}
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+.h1 {
+	font-size: 14px;
+	font-weight: bold;
+
+
+}
+
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	text-align: center;
+	width: 638px;
+	height: 216px;
+
+}
+.hero-image{
+	position: absolute;
+	z-index: -2;
+	width: 100%;
+	height: calc(100vh - 60px);
+	top: 60px;
+	left: 0;
+	object-fit: cover;
+
+}
+#btn { 
+  background-color: #BADC58;
+  color: white;
+  width: 164px;
+  height: 46px;
+  line-height: 42px;
+	border-radius: 15px;
+ 	top: 470px;
+}
+
+#btn:hover {
+	background-color: white;
+	color: #BADC58;
+	transition: 300ms color ease;
+}
+
+.scroll{
+	color: white;
+	padding-top: 80px;
+
+}
+
+.second {
+font-size: 18px;
+font-weight: bold;	
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+top: 91px;
+}
+.arrow {
+position: relative;
+top: 20px;
+}
+
+
+.hero-menu h2 {
+	font-size: 30px;
+	font-weight: normal;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	bottom: 60px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	
+}
+.hero-menu p {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	
+}
+
+#button {
+	display: flex;
+ background-color: white;
+ color: #BADC58;
+ border: 1px solid #BADC58;
+  width: 164px;
+  height: 46px;
+  border-radius: 15px;
+  text-align: center;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 20px;
+
+
+
+}
+
+#button:hover {
+	background-color: #BADC58;
+	color: white;
+	transition: 300ms color ease;
+}
+
+
+.hero-menu img {
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+		display: flex;
+		position: relative;
+		padding-bottom: 35px;
+
+	
+	
+
+}
+.hero-menu li {
+	width: 308px;
+	height: 500px;
+	position: relative;
+	bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+		
+}
+.hero-menu li:hover {
+	transition: 200ms;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px 0px #707070;
+  background-color: #ffffff;
+}
+
+
+.h3 {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	padding-bottom: 24px;
+}
+.hero-menu {
+	border: 1px solid #707070;
+	width: 100%;
+	height: calc(100% - 100px);
+	position: absolute;
+	box-shadow: 0px 3px 6px 0px #707070;
+	display: flex;
+	background-color: #ffffff;
+	flex-wrap:  wrap;
+	justify-content: center;
+	position: relative;
+}
+
+.pasta {
+	 display: flex;
+    flex-wrap: wrap;
+    width: 1084px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+footer::before{
+    content: url('../images/basil2.png');
+    position: absolute;
+    left: -800px;
+    top: -389px;
+    z-index: -1;
+    width: 322px;
+    height: 222px;
+}
+
+
+.hero-menu::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 55px;
+	position: relative;
+	top: -55px;
+	background-color: #FFF;
+	border-top-left-radius:20px;
+	border-top-right-radius: 20px;
+}
+.hero-menu::after {
+	content: '';
+	display: block;
+	width:  100%;
+	height: 56px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -50px;
+	z-index: 5;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius: 20px;
+}
+footer {
+    background-color: #292C2F;
+    width: 100%;
+    height: 557px;
+	position: absolute;
+	left: 0;  
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+address{
+font-style: normal;
+	color:#F59A63; 
+	border-radius: 15px;
+	background-color: white;
+	width: 72%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 90px;
+
+
+}
+iframe {
+	width: 72%;
+	height: 290px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 0	 auto;
+	margin-top: 10px;
+}
+.hero-logos {
+
+	width: 72%;
+	position: relative;
+	bottom: 15px;
+
+}
+.logos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logos1 {
+	
+	width: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+
+path {
+	fill: #fff;
+	cursor: pointer;
+}
+
+#Facebook:hover path {
+	fill:  #BADC58;
+	transition: 300ms color ease;
+}
+
+#Instagram:hover path {
+	fill:  #BADC58;
+	transition: 300ms color ease;
+}
+#Youtube:hover path {
+	fill:  #BADC58;
+	transition: 300ms color ease;
+}
+
+.burger {
+    width: 25px;
+    height: 25px;
+    background-color: #181818;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 75px;
+    cursor: pointer;
+}
+.burger-line {
+    display: block;
+    width: 15px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    margin:  2px;
+    border-top: 2px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.hero-text #btn {
+	width: 60px;
+		height: 30px;
+		font-size: 10px;
+		line-height: 30px;
+	}
+
+	.hero-menu {
+		width: 200px;
+		margin: 0 auto;
+			}
+
+	.hero-content:after {
+
+		display: none;
+	}
+	footer:before {
+		display: none;
+	}
+	header {
+		display: flex;
+		justify-content: space-around;
+	}
+	.list {
+		display: none;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	.hero-menu h2 {
+		font-size: 25px;
+	}
+	.hero-menu img {
+		width: 150px;
+		height: 150px;
+
+	}
+	.hero-menu h3 {
+		font-size: 15px;
+	}
+	.hero-menu p {
+		font-size: 10px;
+
+	}
+	#button {
+		width: 60px;
+		height: 30px;
+	}
+	.hero-menu a {
+		font-size: 10px;
+	}
+	.hero-menu li {
+		width: 200px;
+		height: 350px;
+	}
+	footer address {
+		font-size: 10px;
+	}
+
+
+
+}
+@media (min-width: 720px) and (max-width: 980px) {
+
+
+	.hero-content:after {
+
+		display: none;
+	}
+	footer:before {
+		display: none;
+	}
+	.burger {
+		display: none;
+	}
+	.hero-text h1 {
+		padding-bottom: 50px;
+}
+ 	.hero-text p {
+ 		padding-bottom: 50px;
+ 	}
+ 	#btn {
+ 		margin-top: 50px;
+
+
+ 	}
+ 	.scroll {
+ 		margin-top: 100px;
+ 	}
+
+}
+
+@media (min-width: 1024px) {
+
+	.burger {
+		display: none;
+	}
+}
