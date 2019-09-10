@@ -119,10 +119,21 @@ h1 {
 }
 
 .scroll{
+	position: relative;
+	right: 10px;
 	color: white;
-	padding-top: 80px;
+	padding-top: 60px;
 
 }
+.scroll::before{
+	content: url('../images/Arrow.png');
+	position: relative;
+	top: 50px;
+	left: 64px;
+}
+
+
+
 
 .second {
 font-size: 18px;
@@ -134,8 +145,9 @@ flex-direction: column;
 position: relative;
 top: 91px;
 }
-.arrow {
-position: relative;
+
+#Arrow {
+position: absolute;
 top: 20px;
 }
 
@@ -151,23 +163,24 @@ top: 20px;
 
 h3 {
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: bold;
 	text-align: center;
 	
 }
 .hero-menu p {
 	font-size: 12px;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	position: relative;
 	
 }
 
-#button {
+button {
 	display: flex;
  background-color: white;
  color: #BADC58;
  border: 1px solid #BADC58;
+ font-size: 16px;
   width: 164px;
   height: 46px;
   border-radius: 15px;
@@ -180,12 +193,18 @@ top: 20px;
 
 
 }
+.added {
+background-color: #ECF0F1;
+border-color: #ECF0F1;
+color: #BDC3C7;
+}
 
-#button:hover {
+button:hover {
 	background-color: #BADC58;
 	color: white;
 	transition: 300ms color ease;
 }
+
 
 
 .hero-menu img {
@@ -310,7 +329,7 @@ font-style: normal;
 }
 iframe {
 	width: 72%;
-	height: 290px;
+	height: 55%;
 	border-radius: 15px;
 	display: flex;
 	align-items: center;
@@ -328,6 +347,7 @@ iframe {
 
 }
 .logos {
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -359,6 +379,7 @@ path {
 	transition: 300ms color ease;
 }
 
+
 .burger {
     width: 25px;
     height: 25px;
@@ -370,6 +391,7 @@ path {
     position: absolute;
     right: 75px;
     cursor: pointer;
+
 }
 .burger-line {
     display: block;
@@ -448,6 +470,15 @@ path {
 		display: block;
 	}
 
+.logos {
+height: 120px;
+margin-top: 40px;
+	flex-direction: column;
+}
+
+
+
+
 
 
 }
@@ -484,6 +515,11 @@ path {
 	.list {
 		display: none;
 	}
+.logos {
+height: 120px;
+margin-top: 40px;
+	flex-direction: column;
+}
 
 }
 
