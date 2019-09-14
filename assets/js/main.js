@@ -1,4 +1,5 @@
-let add_buttons = document.getElementsByClassName('click');
+let add_buttons = 
+document.getElementsByClassName('click');
 console.log(add_buttons);
 
 // let src = document.
