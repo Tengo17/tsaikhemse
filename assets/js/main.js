@@ -25,4 +25,12 @@ for (let i = 0; i < add_buttons.length;
 })
 }
 
+let	burger = document. getElementById('burger');
+let menu = document.
+getElementById('menu')
+burger.addEventListener('click',function(){
+	this.classList.toggle('active');
+	menu.classList.toggle('open');
+})
+
 
