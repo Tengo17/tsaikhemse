@@ -2,15 +2,7 @@ let add_buttons =
 document.getElementsByClassName('click');
 console.log(add_buttons);
 
-// let src = document.
-// getElementById('btn');
-
-// scr.addEventListener('click', function()
-// 	{ 
-// 	alert();
-// 	});	
-
-
+// added buttons
 for (let i = 0; i < add_buttons.length;
 	i++) {
 	add_buttons[i].addEventListener('click',
@@ -24,7 +16,7 @@ for (let i = 0; i < add_buttons.length;
 	}
 })
 }
-
+// burger menu 
 let	burger = document. getElementById('burger');
 let menu = document.
 getElementById('menu')
@@ -33,4 +25,10 @@ burger.addEventListener('click',function(){
 	menu.classList.toggle('open');
 })
 
+// scroll down
+
+function jumpScroll() {
+   	window.scroll(0,600);
+ 
+}
 
