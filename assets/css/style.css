@@ -5,6 +5,9 @@
 	list-style: none;
 	font-family: "lato", sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 body{
 	max-width: 1084px;

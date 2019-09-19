@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>იტალიური სამზარეული</title>
+	<link href="dist/hamburgers.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link href="dist/hamburgers.css" rel="stylesheet">
@@ -16,8 +17,8 @@
 
 	<nav>
 	   <ul class="list">
-		<li><a href="#!">პროდუქცია</a></li>
-		<li><a href="#!">კონტაქტი</a></li>
+		<li><a href="#hero_menu">პროდუქცია</a></li>
+		<li><a href="#footer_menu">კონტაქტი</a></li>
 	   </ul> 
 </nav>
 <div class="bmenu">
@@ -54,49 +55,49 @@
 		<h1>იტალიური სამზარეულო</h1>
 		<p class="h1">განუმეორებელი კერძების <br>ასორტიმენტი იტალური<br>
 		სამზარეულოდან</p>
-		<a class="first" id="btn" href="#!" type="button" onClick="jumpScroll()">ვრცლად</a>
+		<a class="first" id="btn" href="#hero_menu" type="button">ვრცლად</a>
 		<img class="hero-image" src="./assets/images/main.png">	
 	</section>
-			<a class="scroll" href="#!" type="button" onClick="jumpScroll()">დაუყევი საიტს</a>
+			<a class="scroll" href="#hero_menu" type="button">დაუყევი საიტს</a>
 
 	</div>
 
 
-	<section class="hero-menu">
+	<section class="hero-menu" id="hero_menu">
 		<h2>იტალიური პასტა</h2>
 			<ul class="pasta">
 					<li>
-					<img  src="./assets/images/1.png">
+					<img class="lazy"  data-src="./assets/images/1.png">
 						<h3>სპაგეტი<br>ალა მატრიჩიანა</h3>	
 					<p>ტომატი, ხახვი, პარმეზანი<br>ბაზელიკი</p>
 				<button class="click">დამატება</button>
 			</li>	
 			<li>
-				<img  src="./assets/images/2.png">
+				<img class="lazy"   data-src="./assets/images/2.png">
 				<h3>სპაგეტი ხორცის <br> სოუსით</h3>
 				<p>ღვინო, ნიორი, ხახვი <br> ფარში, სპაგეტი</p>
 				<button class="click">დამატება</button>
 			</li>
 			<li>
-				<img src="./assets/images/3.png">
+				<img class="lazy" data-src="./assets/images/3.png">
 				<h3 class="h3">სპაგეტი ჩერით</h3>
 				<p>სპაგეტი, პომიდორი, სატაცური <br> ბაზილიკი, ყველი, ნიორი</p>
 				<button class="click">დამატება</button>
 			</li>
 			<li>
-				<img  src="./assets/images/4.png">
+				<img class="lazy"   data-src="./assets/images/4.png">
 				<h3>სპაგეტი<br>ზეთისხილით</h3>
 				<p>პომიდორი, ნიორი, ზეთი <br> ზეთისხილი, რეჰანი</p>
 				<button class="click">დამატება</button>
 			</li>
 			<li>
-				<img src="./assets/images/5.png">
+				<img class="lazy"  data-src="./assets/images/5.png">
 				<h3 class="h3">სპაგეტი სოკოთი</h3>
 				<p >სოკო, ქინძი, მარილი <br> პილპილი, ყველი</p>
 				<button class="click">დამატება</button>
 			</li>
 			<li>
-				<img  src="./assets/images/6.png">
+				<img class="lazy"   data-src="./assets/images/6.png">
 				<h3>სპაგეტი <br> "კარბონარა"</h3>
 				<p>სპაგეტი, კვერცხი, არაჟანი <br> ზეთი, ბეკონი, ყველი</p>
 				<button class="click">დამატება</button>
@@ -104,7 +105,7 @@
 		</ul>
 
 </section>
-		<footer>
+		<footer id="footer_menu">
 			
 				<address> მიჩკევიჩის #7 ა, პირველი სადარაზო (+995) 595 494 303</address>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.8255042154174!2d44.74262371530082!3d41.72428407923463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044731a6fc8bef9%3A0x3df10450ad508866!2s43+Alexander+Kazbegi+Ave%2C+T&#39;bilisi!5e0!3m2!1sru!2sge!4v1566564050881!5m2!1sru!2sge" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
