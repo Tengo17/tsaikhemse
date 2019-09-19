@@ -349,6 +349,13 @@ iframe {
 
 
 }
+.mtavari {
+	color: white;
+}
+.mtavari:hover {
+		color: #BADC58;
+	transition: 300ms color ease;
+}
 .bmenu {
 	display: none;
 }
@@ -393,12 +400,13 @@ path {
 		display: block;
 	}
 
+	
 
 	.hero-text #btn {
-	width: 60px;
+	width: 90px;
 		height: 30px;
-		font-size: 10px;
-		line-height: 30px;
+		font-size: 12px;
+		line-height: 28px;
 	}
 
 	.hero-menu {
@@ -406,11 +414,11 @@ path {
 		margin: 0 auto;
 			}
 
-	.hero-content:after {
+	.hero-content::after {
 
 		display: none;
 	}
-	footer:before {
+	footer::before {
 		display: none;
 	}
 	header {
@@ -421,33 +429,34 @@ path {
 		display: none;
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.hero-menu h2 {
 		font-size: 25px;
 	}
 	.hero-menu img {
-		width: 150px;
-		height: 150px;
+		width: 160px;
+		height: 160px;
 
 	}
 	.hero-menu h3 {
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.hero-menu p {
-		font-size: 10px;
+		font-size: 12px;
 
 	}
-	#button {
-		width: 60px;
+	.click {
+		width: 82px;
 		height: 30px;
+		font-size: 12px;
 	}
 	.hero-menu a {
 		font-size: 10px;
 	}
 	.hero-menu li {
 		width: 200px;
-		height: 350px;
+		height: 380px;
 	}
 	footer address {
 		font-size: 10px;
@@ -465,10 +474,10 @@ margin-top: 40px;
 
 
 }
-@media (min-width: 480px) and (max-width: 720px){
+@media (min-width: 520px) and (max-width: 720px){
 
 
-.hero-content:after {
+.hero-content::after {
 
 		display: none;
 	}

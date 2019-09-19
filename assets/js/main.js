@@ -23,9 +23,9 @@ getElementById('menu')
 burger.addEventListener('click',function(){
 	this.classList.toggle('active');
 	menu.classList.toggle('open');
+
 })
 
-// scroll down
 
 // function jumpScroll() {
 //    	window.scroll(0,600);
