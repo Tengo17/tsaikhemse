@@ -270,7 +270,7 @@ footer::before{
     content: url('../images/basil2.png');
     position: absolute;
     left: -800px;
-    top: -389px;
+    top: -388px;
     z-index: -1;
     width: 322px;
     height: 222px;
